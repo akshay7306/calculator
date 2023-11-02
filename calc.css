@@ -1,0 +1,42 @@
+
+.calc{
+    border: 2px solid;
+    width: 250px;
+    height: 360px;
+    background-color: gray;
+}
+
+
+
+.btn{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.btn-c{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.btn-e{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+}
+
+
+.display{
+    border: 2px solid;
+    width: 205px;
+    height: 30px;
+    margin-top: 10px;
+   
+}

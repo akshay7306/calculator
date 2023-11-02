@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<link rel="stylesheet" href="calc.css">
+<body>
+<center>
+
+    <h1>Simple Calculator</h1>
+
+    <div class="calc">
+
+        <input type="text" id="output" class="display" disabled>
+    <br>
+    <button onclick="display(7)" class="btn" value="7">7</button>
+    <button onclick="display(8)" class="btn" value="8">8</button>
+    <button onclick="display(9)" class="btn" value="9">9</button>
+    <button onclick="display('+')" class="btn" value="+">+</button>
+    <br>
+    <button onclick="display(4)" class="btn" value="4">4</button>
+    <button onclick="display(5)" class="btn" value="5">5</button>
+    <button onclick="display(6)" class="btn" value="6">6</button>
+    <button onclick="display('-')" class="btn" value="-">-</button>
+    <br>
+    <button onclick="display(1)" class="btn" value="1">1</button>
+    <button onclick="display(2)" class="btn" value="2">2</button>
+    <button onclick="display(3)" class="btn" value="3">3</button>
+    <button onclick="display('*')" class="btn" value="*">*</button>
+    <br>
+    <button onclick="display(0)" class="btn" value="0">0</button>
+    <button onclick="display('00')" class="btn" value="00">00</button>
+    <button onclick="display('%')" class="btn" value="%">%</button>
+    <button onclick="display('/')" class="btn" value="/">/</button>
+    <br>
+    <button onclick="clearall()" class="btn-c" value="cl">Clear</button>
+    <button onclick="removeLast()" class="btn-c" value="del">Del</button>
+    <button onclick="display('.')" class="btn" value=".">.</button>
+    <button onclick="evaluateExp()" class="btn-e" value="=">=</button>
+
+
+    </div>
+
+</body>
+
+<script src="calc.js">
+
+</script>
+
+</center>
+</html>
